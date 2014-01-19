@@ -9,4 +9,8 @@ class Beer < ActiveRecord::Base
       ratings.reduce(0) { |sum, r| sum + r.score } / ratings.count.to_f
     end
   end
+
+  def to_s
+    name + ' (' + brewery.name + ')'
+  end
 end
