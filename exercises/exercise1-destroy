@@ -1,0 +1,6 @@
+brewdog = Brewery.find_by name:"BrewDog", year:2007
+brewdog.beers.each do |b|
+  b.ratings.each { |r| r.destroy }
+  b.destroy
+end
+brewdog.destroy
