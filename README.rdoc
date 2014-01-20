@@ -2,4 +2,4 @@
 
 Beer rating for the masses. Coursework for a {RoR course at Helsingin yliopisto}[https://github.com/mluukkai/WebPalvelinohjelmointi2014].
 
-Deployed app at http://ratebeer-jlep.herokuapp.com/breweries
+Deployed app at http://ratebeer-jlep.herokuapp.com
